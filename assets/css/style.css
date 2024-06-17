@@ -1,5 +1,5 @@
 body {
-    background: url("../uskoro.png");
+    background-image: url("../uskoro.png");
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center center;
@@ -7,8 +7,12 @@ body {
     background-size: cover;
 }
 
-@media only screen and (max-width: 1660px) {
-    body {
-        background-size: contain;
-    }
+@media only screen and (max-width: 1024px) {
+    background-image: url("../uskoroMobile.png") !important;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center center;
+    background-color: #201e1f;
+    background-size: cover;
 }
+
