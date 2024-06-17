@@ -8,11 +8,8 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-    background-image: url("../uskoroMobile.png") !important;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-position: center center;
-    background-color: #201e1f;
-    background-size: cover;
+    body {
+        background-image: url("../uskoroMobile.png") !important;
+    }
 }
 
