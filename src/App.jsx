@@ -1,12 +1,16 @@
-import './App.css'
+import './App.scss'
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
 
-function App() {
 
-  return (
-    <div className='text-3xl text-pink-600'>
-      poy nataly
-    </div>
-  )
+const App = () => {
+    return (
+        <>
+            <Navbar/>
+            <Hero/>
+        </>
+
+    )
 }
 
 export default App
