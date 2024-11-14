@@ -1,4 +1,4 @@
-import UveneriHeroLogo from "../assets/svg/UveneriHeroLogo.jsx";
+import UveneriHeroLogo from "../../assets/svg/UveneriHeroLogo.jsx";
 
 const Hero = () => {
 
