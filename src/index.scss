@@ -17,9 +17,15 @@ html, body {
 
 #dizajn-sluge {
   background-image: url("assets/png/dizajn-usluge-bg.png");
+  background-size: cover;
 
   svg {
     margin: 0 auto;
   }
+}
+
+.container {
+  max-width: 1374px;
+  margin: 0 auto;
 }
 
